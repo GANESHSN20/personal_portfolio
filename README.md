@@ -7,7 +7,7 @@ Features smooth navigation, resume download, and a modern UI.
 
 ## 🔗 Live Demo
 
-“This portfolio is deployed using GitHub Pages and can be accessed at: https://ganeshsn20.github.io/personal_portfolio/"
+This portfolio is deployed using GitHub Pages and can be accessed at: https://ganeshsn20.github.io/personal_portfolio/
 
 ---
 
