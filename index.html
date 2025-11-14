@@ -7,113 +7,125 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Sidebar Navigation -->
-    <aside class="sidebar">
+    <!-- NAVBAR -->
+    <header class="navbar">
       <div class="logo">Ganesh.dev</div>
-      <ul>
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </aside>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <main>
-      <!-- Hero Section -->
-      <section class="hero" id="hero">
-        <div class="hero-left">
-          <h1>I’m <span>Ganesh SN</span></h1>
-          <p>MERN Stack Developer | Building full-stack apps with scalable architecture.</p>
-          <a href="#projects" class="btn">See My Projects</a>
-        </div>
-        <div class="hero-right">
-          <img src="image.jpg" alt="Ganesh SN Profile" />
-        </div>
-      </section>
-
-      <!-- About Section -->
-      <section class="about" id="about">
-        <h2>About Me</h2>
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <h1>Hello, I'm <span>Ganesh SN</span></h1>
         <p>
-          <!-- I am a MERN Stack Developer with expertise in developing robust backend APIs, responsive frontends, and scalable applications. I love solving real-world problems with clean code and efficient solutions. -->
-          I am a MERN Stack Developer with expertise in building full-stack applications using MongoDB, Express, React, and Node.js. I craft robust backend APIs, responsive and user-friendly frontends, and scalable solutions to solve real-world problems efficiently with clean, maintainable code.
+          MERN Stack Developer crafting full-stack apps with efficiency and
+          scalable architecture.
         </p>
-        <div class="skills">
-          <h3>Skills</h3>
-          <div class="skill-tags">
-            <span>JavaScript</span>
-            <span>ReactJS</span>
-            <span>NodeJS</span>
-            <span>ExpressJS</span>
-            <span>MongoDB</span>
-            <span>Git & GitHub</span>
-          </div>
-        </div>
-      </section>
+        <a class="hero-btn" href="#projects">Explore My Work</a>
+      </div>
+      <div class="hero-image">
+        <img src="image.jpg" alt="Ganesh SN" />
+      </div>
+    </section>
 
-      <!-- Projects Section -->
-      <section class="projects" id="projects">
-        <h2>Projects</h2>
-        <div class="cards">
-          <article class="card">
-            <h3>Clinic Management System</h3>
-            <p>
-              Developed RESTful APIs with Express.js for appointments, billing, authentication, and patient records. Implemented JWT authentication, role-based authorization, and modular MVC architecture.
-            </p>
-            <a href="https://github.com/GANESHSN20/clinic_management_system" target="_blank">View on GitHub</a>
-          </article>
-          <article class="card">
-            <h3>Portfolio Website</h3>
-            <p>
-              Built my personal portfolio using HTML, CSS, and JS to showcase projects, skills, and resume.
-            </p>
-            <a href="#" target="_blank">View on GitHub</a>
-          </article>
-        </div>
-      </section>
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a MERN Stack Developer who builds end-to-end applications with
+        clean code, scalable APIs, and smooth UI/UX.
+      </p>
 
-      <!-- Education Section -->
-      <section class="education" id="education">
-        <h2>Education</h2>
-        <div class="timeline">
-          <div class="timeline-item">
-            <h3>MSc in Mathematics</h3>
-            <p>Kuvempu University | CGPA: 7.69 | 2022 - 2024</p>
-          </div>
-          <div class="timeline-item">
-            <h3>Bachelor of Science</h3>
-            <p>Kuvempu University | 81% | 2019 - 2022</p>
-          </div>
-        </div>
-      </section>
+      <h3>Skills</h3>
+      <div class="skill-container">
+        <span>JavaScript</span><span>React</span><span>Node.js</span>
+        <span>Express</span><span>MongoDB</span><span>Git & GitHub</span>
+      </div>
+    </section>
 
-      <!-- Resume Section -->
-      <section class="resume" id="resume">
-        <h2>Resume</h2>
-        <p>Download my resume here:</p>
-        <div class="viewDown">
-          <a href="resume.pdf" class="btn" target="_blank">📄 View</a>
-          <a href="resume.pdf" class="btn" download>⬇ Download</a>
-        </div>
-      </section>
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
 
-      <!-- Contact Section -->
-      <section class="contact" id="contact">
-        <h2>Contact</h2>
-        <p>Connect with me for projects or opportunities.</p>
-        <div class="contact-links">
-          <a href="https://mail.google.com/mail/?view=cm&to=ganeshsn205@gmail.com" target="_blank">📧 Email</a>
-          <a href="https://github.com/GANESHSN20" target="_blank">🐙 GitHub</a>
-          <a href="https://www.linkedin.com/in/ganesh-sn/" target="_blank">💼 LinkedIn</a>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Clinic Management System</h3>
+          <p>
+            Role-based access, JWT authentication, modular APIs, and appointment
+            handling.
+          </p>
+          <a
+            href="https://github.com/GANESHSN20/clinic_management_system"
+            target="_blank"
+            >View Project</a
+          >
         </div>
-      </section>
 
-      <footer>
-        <p>© 2025 Ganesh SN | Portfolio</p>
-      </footer>
-    </main>
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>
+            Personal portfolio built with HTML, CSS, JavaScript showcasing
+            skills & projects.
+          </p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="education" id="education">
+      <h2>Education</h2>
+      <div class="edu-grid">
+        <div class="edu-card">
+          <h3>MSc in Mathematics</h3>
+          <p>Kuvempu University</p>
+          <span>CGPA: 7.69 | 2022 - 2024</span>
+        </div>
+
+        <div class="edu-card">
+          <h3>Bachelor of Science</h3>
+          <p>Kuvempu University</p>
+          <span>81% | 2019 - 2022</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section class="resume" id="resume">
+      <h2>Resume</h2>
+      <p>Download my latest resume</p>
+      <div class="resume-links">
+        <a class="btn" href="resume.pdf" target="_blank">View</a>
+        <a class="btn" href="resume.pdf" download>Download</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <h2>Contact</h2>
+      <p>Feel free to connect with me!</p>
+      <div class="contact-buttons">
+        <a href="https://mail.google.com/mail/?view=cm&to=ganeshsn205@gmail.com" target="_blank">Email</a>
+        <a href="https://github.com/GANESHSN20" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/ganesh-sn/" target="_blank"
+          >LinkedIn</a
+        >
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>© 2025 Ganesh SN | Portfolio</p>
+    </footer>
 
     <script src="script.js"></script>
   </body>
